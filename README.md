@@ -12,11 +12,11 @@ class Main {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter How many employee:");
-        int k = sc.nextInt();
+        int j = sc.nextInt();
 
         Employee emp[] = new Employee[k];
 
-        for (int i = 0; i < k; i++) {
+        for (int i = 0; i < j; i++) {
             emp[i] = new Employee();
 
             System.out.println("Enter " + (i + 1) + " Employee data :");
@@ -32,7 +32,7 @@ class Main {
 
         System.out.println("\n\n============ All employee details are :============\n");
 
-        for (int i = 0; i < k; i++) {
+        for (int i = 0; i < j; i++) {
             System.out.println("Employee id  name and salary :" + emp[i].id + " " + emp[i].name + " " + emp[i].sal);
 
         }
